@@ -6,11 +6,11 @@ The *.txt files here hold user and database parameters. Specifically, `replicati
 
 Run the master:
 
-    $ ./init-master.sh
+    $ ./start-master.sh
     
 Wait for it to start up completely. Start the slave:
 
-    $ ./init-slave.sh
+    $ ./start-slave.sh
     
 And then you have two running postgresql instances running in replication mode:
 * postgresql: the master instance(read/write mode)
